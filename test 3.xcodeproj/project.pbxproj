@@ -8,12 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		239A7C4B201342D400C1A603 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 239A7C4A201342D400C1A603 /* AppDelegate.swift */; };
-		239A7C4D201342D400C1A603 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 239A7C4C201342D400C1A603 /* ViewController.swift */; };
+		239A7C4D201342D400C1A603 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 239A7C4C201342D400C1A603 /* LoginViewController.swift */; };
 		239A7C50201342D400C1A603 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 239A7C4E201342D400C1A603 /* Main.storyboard */; };
 		239A7C52201342D400C1A603 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 239A7C51201342D400C1A603 /* Assets.xcassets */; };
 		239A7C55201342D400C1A603 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 239A7C53201342D400C1A603 /* LaunchScreen.storyboard */; };
 		239A7C60201342D400C1A603 /* test_3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 239A7C5F201342D400C1A603 /* test_3Tests.swift */; };
 		239A7C6B201342D400C1A603 /* test_3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 239A7C6A201342D400C1A603 /* test_3UITests.swift */; };
+		239A7C792013432E00C1A603 /* pexels-photo-268533.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 239A7C782013432E00C1A603 /* pexels-photo-268533.jpeg */; };
+		239A7C7D201343F900C1A603 /* pexels-photo-312588.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 239A7C7C201343F900C1A603 /* pexels-photo-312588.jpeg */; };
+		239A7C7F2013455000C1A603 /* blank.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 239A7C7E2013454D00C1A603 /* blank.jpg */; };
+		239A7C812013464400C1A603 /* heartbeatw.png in Resources */ = {isa = PBXBuildFile; fileRef = 239A7C802013464000C1A603 /* heartbeatw.png */; };
+		239A7C832013D67800C1A603 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 239A7C822013D67800C1A603 /* DashboardViewController.swift */; };
+		239A7C862013E2BD00C1A603 /* Symptoms view controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 239A7C842013E2B400C1A603 /* Symptoms view controller.swift */; };
+		239A7C882013EAD900C1A603 /* history view controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 239A7C872013EAD900C1A603 /* history view controller.swift */; };
+		239A7C8A2013EC5100C1A603 /* statsviewcontroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 239A7C892013EC5100C1A603 /* statsviewcontroller.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +44,7 @@
 /* Begin PBXFileReference section */
 		239A7C47201342D400C1A603 /* test 3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "test 3.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		239A7C4A201342D400C1A603 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		239A7C4C201342D400C1A603 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		239A7C4C201342D400C1A603 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		239A7C4F201342D400C1A603 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		239A7C51201342D400C1A603 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		239A7C54201342D400C1A603 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +55,14 @@
 		239A7C66201342D400C1A603 /* test 3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "test 3UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		239A7C6A201342D400C1A603 /* test_3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test_3UITests.swift; sourceTree = "<group>"; };
 		239A7C6C201342D400C1A603 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		239A7C782013432E00C1A603 /* pexels-photo-268533.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "pexels-photo-268533.jpeg"; path = "../../Downloads/pexels-photo-268533.jpeg"; sourceTree = "<group>"; };
+		239A7C7C201343F900C1A603 /* pexels-photo-312588.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "pexels-photo-312588.jpeg"; path = "../../Downloads/pexels-photo-312588.jpeg"; sourceTree = "<group>"; };
+		239A7C7E2013454D00C1A603 /* blank.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = blank.jpg; path = ../../Downloads/blank.jpg; sourceTree = "<group>"; };
+		239A7C802013464000C1A603 /* heartbeatw.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = heartbeatw.png; path = ../../Downloads/heartbeatw.png; sourceTree = "<group>"; };
+		239A7C822013D67800C1A603 /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
+		239A7C842013E2B400C1A603 /* Symptoms view controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Symptoms view controller.swift"; sourceTree = "<group>"; };
+		239A7C872013EAD900C1A603 /* history view controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "history view controller.swift"; sourceTree = "<group>"; };
+		239A7C892013EC5100C1A603 /* statsviewcontroller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = statsviewcontroller.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +97,10 @@
 				239A7C5E201342D400C1A603 /* test 3Tests */,
 				239A7C69201342D400C1A603 /* test 3UITests */,
 				239A7C48201342D400C1A603 /* Products */,
+				239A7C782013432E00C1A603 /* pexels-photo-268533.jpeg */,
+				239A7C7C201343F900C1A603 /* pexels-photo-312588.jpeg */,
+				239A7C7E2013454D00C1A603 /* blank.jpg */,
+				239A7C802013464000C1A603 /* heartbeatw.png */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,11 +118,15 @@
 			isa = PBXGroup;
 			children = (
 				239A7C4A201342D400C1A603 /* AppDelegate.swift */,
-				239A7C4C201342D400C1A603 /* ViewController.swift */,
+				239A7C4C201342D400C1A603 /* LoginViewController.swift */,
 				239A7C4E201342D400C1A603 /* Main.storyboard */,
 				239A7C51201342D400C1A603 /* Assets.xcassets */,
 				239A7C53201342D400C1A603 /* LaunchScreen.storyboard */,
 				239A7C56201342D400C1A603 /* Info.plist */,
+				239A7C822013D67800C1A603 /* DashboardViewController.swift */,
+				239A7C842013E2B400C1A603 /* Symptoms view controller.swift */,
+				239A7C872013EAD900C1A603 /* history view controller.swift */,
+				239A7C892013EC5100C1A603 /* statsviewcontroller.swift */,
 			);
 			path = "test 3";
 			sourceTree = "<group>";
@@ -232,7 +256,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				239A7C812013464400C1A603 /* heartbeatw.png in Resources */,
+				239A7C792013432E00C1A603 /* pexels-photo-268533.jpeg in Resources */,
 				239A7C55201342D400C1A603 /* LaunchScreen.storyboard in Resources */,
+				239A7C7F2013455000C1A603 /* blank.jpg in Resources */,
+				239A7C7D201343F900C1A603 /* pexels-photo-312588.jpeg in Resources */,
 				239A7C52201342D400C1A603 /* Assets.xcassets in Resources */,
 				239A7C50201342D400C1A603 /* Main.storyboard in Resources */,
 			);
@@ -259,7 +287,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				239A7C4D201342D400C1A603 /* ViewController.swift in Sources */,
+				239A7C862013E2BD00C1A603 /* Symptoms view controller.swift in Sources */,
+				239A7C882013EAD900C1A603 /* history view controller.swift in Sources */,
+				239A7C4D201342D400C1A603 /* LoginViewController.swift in Sources */,
+				239A7C832013D67800C1A603 /* DashboardViewController.swift in Sources */,
+				239A7C8A2013EC5100C1A603 /* statsviewcontroller.swift in Sources */,
 				239A7C4B201342D400C1A603 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
