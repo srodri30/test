@@ -11,10 +11,13 @@ import UIKit
 class statsviewcontroller: UIViewController {
     
     override func viewDidLoad() {
-        super.viewDidLoad();
+        super.viewDidLoad()
     }
     @IBAction func loginpressed(_ sender: Any) {
-        self.performSegue(withIdentifier: "stats", sender: self)
+        self.performSegue(withIdentifier: "login", sender: self)
+    
     }
     
+    @IBAction func back(_ sender: Any) { self.performSegue(withIdentifier: "Dashboard", sender: self)    }
+
 }
